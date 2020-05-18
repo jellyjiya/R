@@ -24,7 +24,7 @@ boxplot.stats(mtcars$wt)
 boxplot(mtcars$disp)
 boxplot.stats(mtcars$disp)
 
-#기어수(gea를 그룹 정보로 하여 연비(mpg)자료에 대해 상자그림을 작성하고,
+#기어수(gear)를 그룹 정보로 하여 연비(mpg)자료에 대해 상자그림을 작성하고,
   #각 그룹의 상자그림을 비교하여 관찰할 수 있는 것이 무엇인지 나타내시오.
-boxplot(mpg~gear)
+boxplot(mtcars$mpg~mtcars$gear)
 
